@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
        for testing purposes
      */
 
-    std::cout << "Comments /* like this */ are removed from lines by filter_comments()"
+    std::cout << "Comments /* like this */ are removed from strings by filter_comments()"
               << std::endl;
 
     int x = 5; // declare and initialize `x';
