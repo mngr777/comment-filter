@@ -20,6 +20,8 @@ int main(int argc /* # of arguments*/, char** argv /* argument values */) {
               << "class WidgetBase {};"
               << "</code>" << std::endl;
 
+    int x = 5 / 2; // single slash
+
     for (int i = 0 /* init **/; i < argc /** condition */; ++i /** update **/) // for loop
         std::cout << "argument " << i << ": " << argv[i] << std::endl;
     return 0;
