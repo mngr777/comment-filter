@@ -17,3 +17,7 @@ $ ./test input.cpp
 $ ./test input.cpp output.cpp
 $ cat input.cpp | ./test - output.cpp
 $ cat input.cpp | ./test | grep pattern
+
+Windows:
+$ .\CommentFilter.exe intput.cpp output.cpp
+$ .\CommentFilterFST.exe input.cpp output.cpp
